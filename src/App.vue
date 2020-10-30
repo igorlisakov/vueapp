@@ -1,14 +1,14 @@
 <template>
-  <FileDownload/>
+  <Home/>
 </template>
 
 <script>
-import FileDownload from './components/FileDownload.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    FileDownload
+    Home
   }
 }
 </script>
