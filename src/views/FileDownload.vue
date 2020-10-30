@@ -12,7 +12,7 @@
             }
         },
         mounted() {
-            window.location.replace(this.url)
+            window.location.href = this.url
         }
     }
 </script>

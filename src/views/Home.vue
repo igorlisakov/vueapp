@@ -9,7 +9,7 @@
         name: "Home",
         methods: {
             previewFile() {
-                let routeData = this.$router.resolve({name: 'download'});
+                let routeData = this.$router.resolve({name: 'FileDownload'});
                 window.open(routeData.href, '_blank');
             }
         }
